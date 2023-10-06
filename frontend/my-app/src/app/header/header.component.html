@@ -1,0 +1,21 @@
+<div class="header row justify-content-between">
+    <div class="col-8">
+      <img
+        src="../../assets/AustrianStandardsLogo.png"
+        alt="AustrianStandards Logo"
+        class="austrainstandards-logo"
+        (click) ="goToShop()"
+      >
+    </div>
+    <div class="col-4">
+      <img
+        src="../../assets/ShoppingIcon.png"
+        class="shopping-logo"
+        (click) = "goToWarenkorb()"
+      >
+      <span class="amount"> {{ getTotalPrice() }} €</span>
+      <span class="user">
+          <span>Angemeldet als: {{username}}</span>
+      </span>
+    </div>
+  </div>

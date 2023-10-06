@@ -1,0 +1,12 @@
+form {
+    max-width: 50%;
+    margin: 50px auto;
+}
+
+label, button, form, input {
+    font-size: 40px;
+}
+
+h2 {
+    text-align: center;
+}

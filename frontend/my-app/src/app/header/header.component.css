@@ -1,0 +1,18 @@
+.header {
+    background-color: white;
+    color: black;
+    font-size: 2em;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 12%);
+    border-bottom: 1px solid #d9dadb;
+    display: flex;
+  }
+  .header .austrainstandards-logo {
+    max-width: 400px;
+    padding: 20px;
+  }
+  .header .shopping-logo {
+    max-width: 100px;
+  }
+  .header span {
+    padding-left: 1em;
+  }

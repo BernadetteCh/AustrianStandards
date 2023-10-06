@@ -1,0 +1,16 @@
+<app-header></app-header>
+<div class="warenkorb">
+    <div>
+        <h2>Gesamtpreis: Gesamtpreis €</h2>
+        </div>
+        
+    <div class="container row">
+      <div class="col -8" *ngFor="let warenkorbProduct of warenkorbProducts let i = index">
+      <app-warenkorb-card [warenkorbProductData]="warenkorbProduct" [index]="i" (delete)="deleteProduct($event)"></app-warenkorb-card>
+      </div>
+      </div>
+    <button class="kassa">
+      Zur Kassa
+    </button>
+  </div>
+

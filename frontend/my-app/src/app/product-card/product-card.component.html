@@ -1,0 +1,31 @@
+<div class="col">
+    <div class="container">
+      <div class="imgBx">
+        <img
+          src="data:image/png;base64,{{productData.image}}"
+          alt="prodcut-image"
+        />
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>
+            {{productData.product_name}}
+            <br />
+            <span>{{productData.ausgabedatum}}</span>
+          </h2>
+          <p>{{productData.description}}</p>
+
+          <h3>{{productData.price}}€</h3>
+          <button class="increase-amount" (click) = "increaseAmount(productData.price,productData.id)">
+            +
+          </button>
+          <button
+            class="decrease-amount" (click)="decreaseAmount(productData.price, productData.id)">
+            -
+          </button>
+          <h3 class="product-amount">{{productAmount}}</h3>
+        </div>
+      </div>
+    </div>
+</div>
+ 

@@ -1,0 +1,6 @@
+<app-header></app-header>
+<div class="row">
+<div class="col-6" *ngFor="let product of products let i = index">
+    <app-product-card [productData]="product" [index]="i" (increase)="updateAmount($event)"></app-product-card>
+  </div>
+</div>

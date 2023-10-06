@@ -1,0 +1,21 @@
+.warenkorb {
+    padding-top: 100px;
+    padding-left: 400px;
+    padding-right: 200px;
+  }
+  .delete-button {
+    float: right;
+    background: #62635e;
+    font-size: 16px;
+    color: white;
+    border: none;
+  }
+  
+  .kassa {
+    float: right;
+    background: #821e21;
+    font-size: 25px;
+    color: #fff;
+    border: none;
+    margin-top: 200px;
+  }

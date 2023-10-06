@@ -1,0 +1,17 @@
+<div>
+    <div class="col-8 border">
+      <h2>{{warenkorbProductData.product_name}}</h2>
+      <h3>{{warenkorbProductData.ausgabedatum}}</h3>
+      <div>
+        <img
+          src="data:image/png;base64,{{warenkorbProductData.image}}"
+          alt="prodcut-image"
+        />
+        <br />
+        <span>Preis pro Stück {{warenkorbProductData.price}}</span>
+      </div>
+    </div>
+    <button class="delete-button" (click)="onDelete(warenkorbProductData.id, warenkorbProductData.price)">
+      Delete
+    </button>
+  </div>
